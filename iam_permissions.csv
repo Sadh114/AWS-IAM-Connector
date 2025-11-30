@@ -1,0 +1,9 @@
+User,PolicyType,PolicyName
+Arnav,Managed,AmazonSecurityLakeAdministrator
+person1,Managed,AmazonEC2FullAccess
+person1,Managed,AmazonS3FullAccess
+person2,Managed,IAMReadOnlyAccess
+person2,Managed,AmazonS3ReadOnlyAccess
+person3,Managed,AmazonGlacierFullAccess
+person3,Managed,AmazonEC2ReadOnlyAccess
+person3,Managed,AmazonConnectReadOnlyAccess

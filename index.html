@@ -1,0 +1,38 @@
+<!-- python fetch_iam_permissions.py  -->  
+
+<!-- python -m http.server 8000 -->
+
+<!-- start http://localhost:8000/index.html  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAM Permissions Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IAM Permissions Report</h1>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search by user name...">
+            <button id="downloadCsv">Download CSV</button>
+        </div>
+        <table id="permissionsTable">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Policy Type</th>
+                    <th>Policy Name</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
